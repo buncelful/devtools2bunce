@@ -1,0 +1,22 @@
+/*
+Theme Name: Child of Twenty Seventeen
+Author: Bunce
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.1
+Template: twentyseventeen
+*/
+
+@import url ('../twentyseventeen/style.css');
+@import url (<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">);
+
+/*font-family: 'Righteous', cursive; */
+
+h2 {
+ 	font size: 28 px;
+
+}
+
+.entry-title {
+
+	font-family: helvetica;
+}
