@@ -11,4 +11,14 @@ function my_theme_enqueue_styles() {
    );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+function wpb_add_google_fonts(){
+
+wp_enqueue_style ('wpb-google-fonts','https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah', false);
+
+}
+
+add_action ('wp_enqueue_scripts', 'wpb-adds-google-fonts');
+
+
 ?>
