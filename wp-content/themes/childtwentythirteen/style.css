@@ -8,15 +8,12 @@ Version: 1.1
 */
 
 @import url('../twentythirteen/style.css');
-@import url(link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet");
-@import url(link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet");
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 
 /*font-family:'Gloria Hallelujah', cursive; */
 
-h1 {
- 	font-family:'Gloria Hallelujah', cursive;
-}
 
 .entry-title {
 
@@ -34,13 +31,14 @@ h1 {
 }
 
 .site-title{
-	color:#4286f4!important;
-	background-color: black!important;
+	color:#dbc011!important;
+	background-color: white!important;
+	font-family:'Gloria Hallelujah', cursive;
 }
 
 .site-description{
-	color:#4286f4!important;
-	background-color: black!important;
+	color:#dbc011!important;
+	background-color: white!important;
 }
 
 body {
@@ -54,8 +52,8 @@ body {
 
 }
 
-.site-footer {
-	color:#B0B!important 
+.sidebar-container {
+	background-color:#4286f4!important 
 }
 
 /*
