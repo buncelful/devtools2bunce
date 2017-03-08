@@ -1,28 +1,67 @@
 /*
 Theme Name: Child of Twenty Thirteen
+Template: twentythirteen
+
 Author: Bunce
 Description: Twenty Thirteen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
 Version: 1.1
-Template: twentythirteen
 */
 
 @import url('../twentythirteen/style.css');
-@import url('link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"');
+@import url(link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet");
+@import url(link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet");
 
-font-family: 'Righteous', cursive;
 
-h2, h2, h3, h4, h5, h6 {
- 	font-family: helvetica, sans-serif;
+/*font-family:'Gloria Hallelujah', cursive; */
+
+h1 {
+ 	font-family:'Gloria Hallelujah', cursive;
 }
 
 .entry-title {
 
-	font-family: helvetica;
+	font-family: 'Amatic SC', cursive;
 }
 
+.content-area{
 
+	background-color: black!important;
+}
+
+.navbar {
+
+	background-color: #dbc011!important;
+}
+
+.site-title{
+	color:#4286f4!important;
+	background-color: black!important;
+}
+
+.site-description{
+	color:#4286f4!important;
+	background-color: black!important;
+}
+
+body {
+	color:#4286f4!important;
+
+}
+
+.site-header{
+
+	background: none!important;
+
+}
+
+.site-footer {
+	color:#B0B!important 
+}
+
+/*
 .sticky::before {
 	background-color: pink;
 	content: "Featured Post";
 }
 
+*/
